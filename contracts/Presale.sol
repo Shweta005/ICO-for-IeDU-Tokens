@@ -15,7 +15,7 @@ contract Crowdsale {
     uint public amountRaised; //funds get
     uint public deadline; //duration of presale
     uint public price; //setting price for tokens
-     // BEP20Token public tokenReward;
+     // BEP20Token public tokenReward;//Token address:0xeeb6d38de4ddf1b8df4989d0c8e95f81a42ff497
     tokens public tokenReward;
     mapping(address => uint256) public balancOf;
     bool fundingGoalReached;
